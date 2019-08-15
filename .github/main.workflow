@@ -6,7 +6,7 @@ workflow "Update gist with WakaTime stats" {
 action "update-gist" {
   uses = "matchai/waka-box@master"
   env = {
-    "GIST_ID" = "968220c97e8da1d047a9a480fa432e54"
+    "GIST_ID" = "c6482c104954c5ff926586ddf9526353"
   }
   secrets = [
     "GH_TOKEN",
